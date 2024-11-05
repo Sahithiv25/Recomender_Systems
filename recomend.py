@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 app = Flask(__name__)
 
 # Load data and precompute TF-IDF for efficiency
-df = pd.read_csv('cosmetics.csv')
+df = pd.read_csv('data/cosmetics.csv')
 df['text'] = df['Name'] + " " + df['Ingredients']
 documents = df['text'].fillna("").tolist()
 
