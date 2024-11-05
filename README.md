@@ -2,6 +2,8 @@
 
 A web-based recommendation system for skincare products that suggests items based on user input such as skin type and product preferences. This project uses Flask for the backend, a recommendation model implemented with scikit-learn, and a responsive frontend built with Bootstrap.
 
+![Recomendations_Landing_Page](./src/recomend.jpg)
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
